@@ -1,0 +1,3 @@
+# Unhandled FormatException in JSON Decoding
+
+This repository demonstrates a common error in Dart when handling JSON responses. The `fetchData` function fetches data from an API endpoint and decodes the JSON response.  However, it does not explicitly handle `FormatException` which can occur if the JSON response is malformed or invalid.  The solution improves error handling by adding a catch block specific to `FormatException`. 
